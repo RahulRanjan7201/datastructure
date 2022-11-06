@@ -13,7 +13,6 @@ function printLL() {
     console.log(ll.head)
     let current= ll.head;
     while(current) {
-        console.log(current.element)
         current = current.next;
     }
 }

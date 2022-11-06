@@ -18,6 +18,7 @@ function deleteLLByKey(key) {
         }
         temp = temp.next;
     }
+    if(!found) console.log("Key not found")
     console.log("After", JSON.stringify(ll.head))
 }
 deleteLLByKey(2)
