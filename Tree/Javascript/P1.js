@@ -1,9 +1,4 @@
-// Definition for a  binary tree node
-//    function TreeNode(data){
-//      this.data = data
-//      this.left = null
-//      this.right = null
-//    }
+
     function  solve (A){
                let arr =[];
                if(!A) return ; 
